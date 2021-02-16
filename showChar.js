@@ -1,7 +1,12 @@
-let nameAndBook = ['Gustave Flaubert', 'Une phrase de salammbô']
+let auteur = ['Gustave Flaubert']
+let book = ['Une phrase de salammbô']
 
-for (let i = 0; i < 1; i++) {
-  console.log(`L'auteur de cette phrase est ${nameAndBook[0]} extraite du livre ${nameAndBook[1]}. Elle contient ${nameAndBook[i].length} caractères.`)
+for (let i = 0; i < auteur.length; i++) {
+  console.log(`L'auteur de cette phrase est ${auteur}`)
+  for (let j = 0; j < book.length; j++) {
+    console.log(`Elle est extraite du livre ${book}`)
+  }
+  console.log(`Ces phrases contiennent respectivement ${auteur[i].length} et ${book[i].length} caractères.\n`)
 }
 
 
