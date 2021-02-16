@@ -6,10 +6,7 @@ console.log(pCount)
 
 for (let i = 0; i < pCount.length; i++) {
   console.log(`Cette phrase contient ${pCount[i].length} caractères.\n`)
-
 }
-
-
 
 let txt = "C'était à Mégara, faubourg de Carthage, dans les jardins d'Hamilcar.\n"
 console.log(txt)
